@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 6rem;
+}
+.logo > h1 {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  margin-left: 2rem;
+  color: #fff;
+}
+.btn-s {
+  font-size: 2rem;
+  margin-right: 2rem;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn-s:hover {
+  transform: scale(1.1);
+}

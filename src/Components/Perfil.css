@@ -1,0 +1,22 @@
+.perfil {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.perfil > img {
+  border-radius: 1rem;
+}
+.perfil > h2 {
+  font-size: 3rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+.perfil > p {
+  font-size: 1.3rem;
+  color: #fff;
+  margin-top: 2rem;
+}
+.aviso {
+  margin-top: 3rem;
+}
