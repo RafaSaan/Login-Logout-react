@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./Index.css";
 import App from "./App";
+import "./index.css";
 import { Auth0Provider } from "@auth0/auth0-react";
 
 ReactDOM.render(
